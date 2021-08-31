@@ -3,7 +3,15 @@
 
 def main():
     #escribe tu código abajo de esta línea
+    i = 0
+    suma = 0
     
+    while suma < 1000:
+        num = int(input('Ingresa un número entero: '))
+        i+=1
+        suma += num
+    print(f'''Suma = {suma}
+Cantidad de números = {i}''')
 
 if __name__=='__main__':
     main()
